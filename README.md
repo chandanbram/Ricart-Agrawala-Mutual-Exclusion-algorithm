@@ -4,17 +4,10 @@ This project demonstrates the **Ricart-Agrawala algorithm** for mutual exclusion
 
 Features
 
-Implements Ricart-Agrawala Algorithm for distributed mutual exclusion
-
-Uses UDP sockets for inter-process communication
-
-Maintains a request queue to handle simultaneous requests
-
-Introduces 1-second delay for message transmission (simulating real-world delays)
-
-Executes the critical section for 2 seconds
-
-Handles deferred requests correctly
+* Implements Ricart-Agrawala Algorithm for distributed mutual exclusion
+* Uses UDP sockets for inter-process communication
+* Maintains a request queue to handle simultaneous requests
+* Handles deferred requests correctly
 
 ## Prerequisites
 - **Ubuntu** (or any Linux-based OS)
